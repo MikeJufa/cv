@@ -21,6 +21,10 @@ h2, h3 {
 }
 
 /***********************CLASS SELECTORS*************************/
+.Exp-container {
+  margin: 50px;
+}
+
 .Segment {
   color: blue;
 }
