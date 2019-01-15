@@ -44,6 +44,6 @@ h2, h3 {
 }
 
 /***********************ID SELECTORS*************************/
-#My_Name,#Job_Title {
-  color: #4e2161;
+#My_Name,#Job_Title,#Loc {
+  color: #36622b;
 }
