@@ -1,6 +1,7 @@
 /***********************TAG SELECTORS*************************/
 body {
   background-color: #ebfffb;
+  font-family: arial;
 }
 
 hr {
@@ -36,6 +37,10 @@ h2, h3 {
 
 .Txt-Bold {
   font-weight: bold;
+}
+
+.Txt-Italic {
+  font-style: Italic;
 }
 
 /***********************ID SELECTORS*************************/
