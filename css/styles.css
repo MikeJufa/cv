@@ -1,7 +1,7 @@
 /***********************TAG SELECTORS*************************/
 body {
   background-color: #ebfffb;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Istok Web', sans-serif;
 }
 
 hr {
@@ -14,11 +14,13 @@ hr {
 
 h1 {
   color: #36622b;
+  font-family: 'Libre Baskerville', serif;
 }
 
 h2, h3 {
   color: #36622b;
   text-align: center;
+  font-family: 'Libre Baskerville', serif;
 }
 
 /***********************CLASS SELECTORS*************************/
