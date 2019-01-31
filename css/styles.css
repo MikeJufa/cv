@@ -45,6 +45,10 @@ h2, h3 {
   font-style: Italic;
 }
 
+.profile-image {
+  border-radius: 100%;
+}
+
 /***********************ID SELECTORS*************************/
 #My_Name,#Job_Title,#Loc {
   color: #36622b;
