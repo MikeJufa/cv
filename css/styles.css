@@ -1,6 +1,5 @@
 /***********************TAG SELECTORS*************************/
 body {
-  background-color: #ebfffb;
   font-family: 'Karla', sans-serif;
 }
 
@@ -57,10 +56,55 @@ h3 {
   padding: 5% 7%;
 }
 
-/***********************ID SELECTORS*************************/
 .Header {
   color: #36622b;
 }
+
+.social-icon {
+  margin: 7px 49px;
+}
+
+.navbar-feature {
+  padding: 0 12%;
+  background-color: #ebfffb;
+}
+
+.icon {
+  color: #36622b;
+}
+
+/***********************ID SELECTORS*************************/
+#NameTitle {
+  background-color: #fff;
+  padding: 0.5% 7% 0.5% 7%;
+}
+
+#Summary {
+  background-color: ;
+  padding: 1% 7% 1% 7%;
+}
+
+#Skills {
+  background-color: #fff;
+  padding:2% 7% 2% 7%;
+}
+
+#Experience {
+  background-color: #fff;
+  padding: 2% 7% 2% 7%;
+}
+
+#Education {
+  background-color: #fff;
+  padding: 1% 8%;
+}
+
+#Footer {
+  background-color: #ebfffb;
+  text-align: center;
+}
+
+/***********************Media Section*************************/
 
 @media (max-width: 1130px) {
   h1 {

@@ -4,288 +4,363 @@
 <head>
   <meta charset="utf-8">
   <title>Mike Zhu's Resume</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Karla|Istok+Web|Libre+Baskerville" rel="stylesheet">
+
+  <!-- CSS Stylesheets -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
   <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+  <!-- Favicon -->
   <link rel="shortcut icon" href="images/favicon.ico">
-  <link href="https://fonts.googleapis.com/css?family=Karla|Istok+Web|Libre+Baskerville" rel="stylesheet">
+
 </head>
 
 <body>
+  <!-- Nav Bar -->
+
+  <nav class="navbar navbar-expand-lg navbar-feature">
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#Skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Experience">Experience</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Education">Education</a>
+        </li>
+      </ul>
+
+    </div>
+  </nav>
+
+
   <!-- Name, Title and Contact Info Section-->
-  <div class="row">
-    <div class="col-lg-6 NameSection">
-      <h1 class="Header">Mike Zhu</h1>
-      <h2 class="Header">Senior QlikView Qlik Sense Consultant and Developer</h3>
+  <section id="NameTitle">
+
+    <div class="row">
+      <div class="col-lg-6 NameSection">
+        <h1 class="Header">Mike Zhu</h1>
+        <h2 class="Header">Senior QlikView Qlik Sense Consultant & Developer</h3>
+      </div>
+      <div class="col-lg-6 ContactInfo NameSection">
+        <h4 class="Header">Toronto, Ontario</h4>
+        <p>Email: <a href="mailto: zf328@hotmail.com">zf328@hotmail.com</a></p>
+        <p>Phone: (416) 303-7888</p>
+        <p><em><a href="https://www.toqlik.com">www.toqlik.com</a></em></p>
+      </div>
     </div>
-    <div class="col-lg-6 ContactInfo NameSection">
-      <h4 class="Header">Toronto, Ontario</h4>
-      <p>Email: <a href="mailto: zf328@hotmail.com">zf328@hotmail.com</a></p>
-      <p>Phone: (416) 303-7888</p>
-      <p><em><a href="https://www.toqlik.com">www.toqlik.com</a></em></p>
-    </div>
-  </div>
+
+  </section>
 
   <!-- Summary Section -->
-  <h3 class="Segment">SUMMARY</h3>
-  <hr>
-  <div class="Exp-container">
-    <ul>
-      <li>8+ years of experience in designing, development and deployment Qlik Sense and QlikView reports and dashboards from multiple database sources such as: SQL Server 2008 R2, 2012, 2014, Oracle Database 10g, 11g, 12c, Sybase, PostgreSQL,
-        MongoDB, MySQL,
-        DB2 and etc.</li>
-      <li>Designing front-end Business Users interface by using DAR Dashboard, Analysis, and Reports approach; experience with backend constructing data model with star schema or snowflake schema;</li>
-      <li>Strong data management and reporting skills on quantitative analysis, interoperate and translate business requirements into efficient visualizations and dashboards;</li>
-      <li>Professional experience of most advanced SQL Server Database server installation, login and user creation, role and permission configuration;</li>
-      <li>Professional experience on load variety of large volume data files into SQL Server database tables, migrate from MySQL, Oracle tables into SQL Server database tables and generate Reports with SSRS;</li>
-      <li>Experience on high performance data integration solutions – Microsoft SQL Server Integration Service (SSIS), including Dynamic SQL, extraction, transformation, and load (ETL) packages to Data Warehousing;</li>
-      <li>Tune complex visualizations and large datasets for optimal performance and maintainability;</li>
-      <li>Troubleshoot issues as they occur, identify criticality and impact, provide appropriate workarounds;</li>
-    </ul>
-  </div>
+  <section id="Summary">
+
+    <h3 class="Segment">SUMMARY</h3>
+    <hr>
+    <div class="Exp-container">
+      <ul>
+        <li>8+ years of experience in designing, development and deployment Qlik Sense and QlikView reports and dashboards from multiple database sources such as: SQL Server 2008 R2, 2012, 2014, Oracle Database 10g, 11g, 12c, Sybase, PostgreSQL,
+          MongoDB, MySQL,
+          DB2 and etc.</li>
+        <li>Designing front-end Business Users interface by using DAR Dashboard, Analysis, and Reports approach; experience with backend constructing data model with star schema or snowflake schema;</li>
+        <li>Strong data management and reporting skills on quantitative analysis, interoperate and translate business requirements into efficient visualizations and dashboards;</li>
+        <li>Professional experience of most advanced SQL Server Database server installation, login and user creation, role and permission configuration;</li>
+        <li>Professional experience on load variety of large volume data files into SQL Server database tables, migrate from MySQL, Oracle tables into SQL Server database tables and generate Reports with SSRS;</li>
+        <li>Experience on high performance data integration solutions – Microsoft SQL Server Integration Service (SSIS), including Dynamic SQL, extraction, transformation, and load (ETL) packages to Data Warehousing;</li>
+        <li>Tune complex visualizations and large datasets for optimal performance and maintainability;</li>
+        <li>Troubleshoot issues as they occur, identify criticality and impact, provide appropriate workarounds;</li>
+      </ul>
+    </div>
+  </section>
+
   <!--************************SKILLS****************************-->
-  <h3 class="Segment">SKILLS</h3>
-  <hr>
-  <div class="Exp-container">
-    <table class="centerized" cellspacing="10">
-      <tr>
-        <td class="Txt-Bold">BI:</td>
-        <td>QlikView, Qlik Sense, Qlik NPrinting, Tableau and Power BI;</td>
-      </tr>
-      <tr>
-        <td class="Txt-Bold">Database: </td>
-        <td>Sybase, PostgreSQL, Oracle 10g, 11g, 12c, SQL Server 2008R2, 2012, 2014, MongoDB, MySQL;</td>
-      </tr>
-      <tr>
-        <td class="Txt-Bold">Reporting:</td>
-        <td>Splunk, SSIS, SSRS, Access 2010, Power Point;</td>
-      </tr>
-      <tr>
-        <td class="Txt-Bold">Language:</td>
-        <td>Qlik Scripts, T-SQL, PL/SQL, HTML5, CSS, JS and Python;</td>
-      </tr>
-      <tr>
-        <td class="Txt-Bold">ETL:</td>
-        <td>Informatica PowerCenter</td>
-      </tr>
-      <tr>
-        <td class="Txt-Bold">Big Data:</td>
-        <td>Cloudera Hadoop, and Spark;</td>
-      </tr>
-    </table>
-  </div>
+  <section id="Skills">
+
+    <h3 class="Segment">SKILLS</h3>
+    <hr>
+    <div class="Exp-container">
+      <table class="centerized" cellspacing="10">
+        <tr>
+          <td class="Txt-Bold">BI:</td>
+          <td>QlikView, Qlik Sense, Qlik NPrinting, Tableau and Power BI;</td>
+        </tr>
+        <tr>
+          <td class="Txt-Bold">Database: </td>
+          <td>Sybase, PostgreSQL, Oracle 10g, 11g, 12c, SQL Server 2008R2, 2012, 2014, MongoDB, MySQL;</td>
+        </tr>
+        <tr>
+          <td class="Txt-Bold">Reporting:</td>
+          <td>Splunk, SSIS, SSRS, Access 2010, Power Point;</td>
+        </tr>
+        <tr>
+          <td class="Txt-Bold">Language:</td>
+          <td>Qlik Scripts, T-SQL, PL/SQL, HTML5, CSS, JS and Python;</td>
+        </tr>
+        <tr>
+          <td class="Txt-Bold">ETL:</td>
+          <td>Informatica PowerCenter</td>
+        </tr>
+        <tr>
+          <td class="Txt-Bold">Big Data:</td>
+          <td>Cloudera Hadoop, and Spark;</td>
+        </tr>
+      </table>
+    </div>
+  </section>
   <!--************************Experience****************************-->
-  <h3 class="Segment">EXPERIENCE</h3>
-  <hr>
-  <!--************************Morgan Stanley****************************-->
-  <div class="Exp-container">
-    <table>
-      <tr>
-        <td class="Txt-Bold">QlikView Qlik Sense Consultant</td>
-      </tr>
-      <tr>
-        <td class="Txt-Italic">Morgan Stanley</td>
-        <td class="Txt-Bold">Nov. 2018</td>
-        <td>to</td>
-        <td class="Txt-Bold">Present</td>
-      </tr>
-    </table>
-    <p>
-      Projects:<br>
-      EDC Inventory and Capacity Project Development;<br>
-      QlikView Server Environment Administration and Management;<br>
-    </p>
-    <ul>
-      <li>Collaborates extensively with peers and business partners in the design, implementation, and development of Business Intelligence and solutions, contributing to a very flexible development process with SCRUM and Agile;</li>
-      <li>Using Informatica PowerCenter ETL tools and multiple database Data Warehouse in UNIX and Windows environments, develop various production dashboards and reports;</li>
-      <li>Seeks to identify and investigate the root cause of Qlik related issues after incident have occurred and disrupted a service as reactive problem management;</li>
-      <li>Prevents problems and resulting incidents from happening while eliminating recurring incidents;</li>
-    </ul>
-    <p>
-      <span class="Txt-Italic">Environments:</span><br>
-      Windows Server 2012/2016, UNIX, Linux, Sybase, MongoDB, PostgreSQL, SQL Server 2012/2016, Citrix, VSS <br>
-    </p>
-    <br>
-    <br>
-    <!--************************Deloitte Canada****************************-->
-    <table>
-      <tr>
-        <td class="Txt-Bold">Qlik Sense Consultant and Developer</td>
-      </tr>
-      <tr>
-        <td class="Txt-Italic">Deloitte Canada</td>
-        <td class="Txt-Bold">Dec. 2017</td>
-        <td>to</td>
-        <td class="Txt-Bold">Nov. 2018</td>
-      </tr>
-    </table>
-    <p>
-      Projects:<br>
-      ABN/HACC/ADC Qlik Sense Server Migration and Development;<br>
-    </p>
-    <ul>
-      <li>Migrate existing Qlik Sense Server to new environment including all related files, such as QVDs, scripts, apps, dashboards, and reports etc.;</li>
-      <li>Set up new data connection, reload and refresh schedule in new Qlik Sense server, Create new streams and test apps to carry system performance testing;</li>
-      <li>Perform scripts check, units test and reload tests for all migrated Qlik Sense apps and reports in new Qlik Sense servers;</li>
-      <li>Enhance security control in Qlik Sense access for different types or department users to access designated streams and apps;</li>
-    </ul>
-    <p>
-      <span class="Txt-Italic">Environments:</span><br>
-      SQL Server 2012/2016, Qlik Sense, SAS, Windows Server 2012/2016, VDI, Citrix, VSS<br>
-    </p>
-    <br>
-    <br>
-    <!--************************SNC-Lavalin****************************-->
-    <table>
-      <tr>
-        <td class="Txt-Bold">QlikView Qlik Sense Consultant and Developer</td>
-      </tr>
-      <tr>
-        <td class="Txt-Italic">SNC-Lavalin</td>
-        <td class="Txt-Bold">Oct. 2016</td>
-        <td>to</td>
-        <td class="Txt-Bold">Dec. 2017</td>
-      </tr>
-    </table>
-    <p>
-      Projects:<br>
-      CMB KPIs Dashboard;<br>
-      NEX Leasing Properties Reporting;<br>
-    </p>
-    <ul>
-      <li>Perform design, development and implementation of the QlikView data model, reports and dashboards using Agile approach and SCRUM methodology;</li>
-      <li>Work with business analysts, data analysts and business users in understanding the business requirements;</li>
-      <li>Experience in QlikView Set Analysis, Section Access, Auto-reload tasks and triggers, Extensive knowledge of QlikView scripting and syntax function, QVD generator, ApplyMap function, preceding load, mapping load, incremental load and
-        etc.;</li>
-      <li>Strong knowledge of OLEDB and ODBC database connectivity, Understanding of QlikView Server/Publisher - Qlik Management Console (QMC);</li>
-      <li>Strong UI knowledge for creating complex Dashboard expressions and building backend architecture;</li>
-    </ul>
-    <p>
-      <span class="Txt-Italic">Environments:</span><br>
-      SQL Server 2012/2016, Qlik Sense, SAS, Windows Server 2012/2016, VDI, Citrix, VSS<br>
-    </p>
-    <br>
-    <br>
-    <!--************************MTCU****************************-->
-    <table>
-      <tr>
-        <td class="Txt-Bold">Qlik Sense QlikView Developer</td>
-      </tr>
-      <tr>
-        <td class="Txt-Italic">Ministry of Teaching, College & University (MTCU)</td>
-        <td class="Txt-Bold">Aug. 2015</td>
-        <td>to</td>
-        <td class="Txt-Bold">Oct. 2016</td>
-      </tr>
-    </table>
-    <p>
-      Projects:<br>
-      College Dashboard Reporting;<br>
-    </p>
-    <ul>
-      <li>Worked with business analysts and business users for requirement gathering, gap analysis, and data modeling;</li>
-      <li>Developed reports using QlikView, Qlik Sense and Excel Pivot tables and cross table;</li>
-      <li>Developed QlikView scripts for QVD file generation from database, and batch scripts for scheduled reload;</li>
-      <li>Designed data warehouse model and QlikView and Qlik Sense dashboards, analysis reports by using DAR approach and SCRUM methodology;</li>
-      <li>Tuned QlikView report performance by optimizing database queries and report design;</li>
-      <li>Worked with QA and business users during SIT and UAT SDLC cycles;</li>
-    </ul>
-    <p>
-      <span class="Txt-Italic">Environments:</span><br>
-      SQL Server 2012/2016, Qlik Sense, SAS, Windows Server 2012/2016, VDI, Citrix, VSS<br>
-    </p>
-    <br>
-    <br>
-    <!--************************TD BANK****************************-->
-    <table>
-      <tr>
-        <td class="Txt-Bold">BI Developer and Data Analyst</td>
-      </tr>
-      <tr>
-        <td class="Txt-Italic">TD Bank</td>
-        <td class="Txt-Bold">Sep. 2014</td>
-        <td>to</td>
-        <td class="Txt-Bold">Aug. 2015</td>
-      </tr>
-    </table>
-    <p>
-      Projects:<br>
-      M-cube trading reporting; <br>
-      (Collect trading and settlement data from 11 sources and provide daily reports to business)<br>
-    </p>
-    <ul>
-      <li>Worked with ETL team on data requirement for reports and BI data model design;</li>
-      <li>Developed SSRS reports for pre-defined reporting by business users;</li>
-      <li>Developed QlikView dashboards for KPI analysis on SQL server data warehouse;</li>
-      <li>Extracted data from SQL Server database tables into flat data files and Excel sheet;</li>
-    </ul>
-    <p>
-      <span class="Txt-Italic">Environments:</span><br>
-      SQL server 2012, SSRS, QlikView, Qlik Sense, Windows Server 2008, SQL, T-SQL<br>
-    </p>
-    <br>
-    <br>
-    <!--************************OBP CONSULTANTS****************************-->
-    <table>
-      <tr>
-        <td class="Txt-Bold">Data Analyst</td>
-      </tr>
-      <tr>
-        <td class="Txt-Italic">OBP Consultants Inc.</td>
-        <td class="Txt-Bold">Feb. 2012</td>
-        <td>to</td>
-        <td class="Txt-Bold">Sep. 2014</td>
-      </tr>
-    </table>
-    <p>
-      Projects:<br>
-      Common Corporate Data Integration; <br>
-    </p>
-    <ul>
-      <li>Setup and maintained SQL Server 2012/2014 databases for team projects;</li>
-      <li>Worked closed with business analysts on requirement gap analysis;</li>
-      <li>Designed database model in E-R model according to business requirements;</li>
-      <li>Developed operation reports with SSRS for data verification and auditing;</li>
-    </ul>
-    <p>
-      <span class="Txt-Italic">Environments:</span><br>
-      SQL Server 2012/2014, QlikView, Qlik Sense, Windows Server 2008, T-SQL, SSRS<br>
-    </p>
-    <br>
-    <br>
-    <!--************************LAO TU LLC****************************-->
-    <table>
-      <tr>
-        <td class="Txt-Bold">Remote Data Analyst</td>
-      </tr>
-      <tr>
-        <td class="Txt-Italic">LAO TU LLC.</td>
-        <td class="Txt-Bold">Mar. 2011</td>
-        <td>to</td>
-        <td class="Txt-Bold">Feb. 2012</td>
-      </tr>
-    </table>
-    <p>
-      Projects:<br>
-      Common Corporate Data Integration; <br>
-    </p>
-    <ul>
-      <li>Successfully retrieve and modify data using SQL Server from different database, and create new database, add/modify/drop tables and data;</li>
-      <li>Created Excel reports for business users by analyzing data from multiple data sources;</li>
-    </ul>
-    <p>
-      <span class="Txt-Italic">Environments:</span><br>
-      QlikView, Qlik Sense, Windows Server 2008, T-SQL, SSRS<br>
-    </p>
-  </div>
+  <section id="Experience">
+
+    <h3 class="Segment">EXPERIENCE</h3>
+    <hr>
+    <!--************************Morgan Stanley****************************-->
+    <div class="Exp-container">
+      <table>
+        <tr>
+          <td class="Txt-Bold">QlikView Qlik Sense Consultant</td>
+        </tr>
+        <tr>
+          <td class="Txt-Italic">Morgan Stanley</td>
+          <td class="Txt-Bold">Nov. 2018</td>
+          <td>to</td>
+          <td class="Txt-Bold">Present</td>
+        </tr>
+      </table>
+      <p>
+        Projects:<br>
+        EDC Inventory and Capacity Project Development;<br>
+        QlikView Server Environment Administration and Management;<br>
+      </p>
+      <ul>
+        <li>Collaborates extensively with peers and business partners in the design, implementation, and development of Business Intelligence and solutions, contributing to a very flexible development process with SCRUM and Agile;</li>
+        <li>Using Informatica PowerCenter ETL tools and multiple database Data Warehouse in UNIX and Windows environments, develop various production dashboards and reports;</li>
+        <li>Seeks to identify and investigate the root cause of Qlik related issues after incident have occurred and disrupted a service as reactive problem management;</li>
+        <li>Prevents problems and resulting incidents from happening while eliminating recurring incidents;</li>
+      </ul>
+      <p>
+        <span class="Txt-Italic">Environments:</span><br>
+        Windows Server 2012/2016, UNIX, Linux, Sybase, MongoDB, PostgreSQL, SQL Server 2012/2016, Citrix, VSS <br>
+      </p>
+      <br>
+      <br>
+      <!--************************Deloitte Canada****************************-->
+      <table>
+        <tr>
+          <td class="Txt-Bold">Qlik Sense Consultant and Developer</td>
+        </tr>
+        <tr>
+          <td class="Txt-Italic">Deloitte Canada</td>
+          <td class="Txt-Bold">Dec. 2017</td>
+          <td>to</td>
+          <td class="Txt-Bold">Nov. 2018</td>
+        </tr>
+      </table>
+      <p>
+        Projects:<br>
+        ABN/HACC/ADC Qlik Sense Server Migration and Development;<br>
+      </p>
+      <ul>
+        <li>Migrate existing Qlik Sense Server to new environment including all related files, such as QVDs, scripts, apps, dashboards, and reports etc.;</li>
+        <li>Set up new data connection, reload and refresh schedule in new Qlik Sense server, Create new streams and test apps to carry system performance testing;</li>
+        <li>Perform scripts check, units test and reload tests for all migrated Qlik Sense apps and reports in new Qlik Sense servers;</li>
+        <li>Enhance security control in Qlik Sense access for different types or department users to access designated streams and apps;</li>
+      </ul>
+      <p>
+        <span class="Txt-Italic">Environments:</span><br>
+        SQL Server 2012/2016, Qlik Sense, SAS, Windows Server 2012/2016, VDI, Citrix, VSS<br>
+      </p>
+      <br>
+      <br>
+      <!--************************SNC-Lavalin****************************-->
+      <table>
+        <tr>
+          <td class="Txt-Bold">QlikView Qlik Sense Consultant and Developer</td>
+        </tr>
+        <tr>
+          <td class="Txt-Italic">SNC-Lavalin</td>
+          <td class="Txt-Bold">Oct. 2016</td>
+          <td>to</td>
+          <td class="Txt-Bold">Dec. 2017</td>
+        </tr>
+      </table>
+      <p>
+        Projects:<br>
+        CMB KPIs Dashboard;<br>
+        NEX Leasing Properties Reporting;<br>
+      </p>
+      <ul>
+        <li>Perform design, development and implementation of the QlikView data model, reports and dashboards using Agile approach and SCRUM methodology;</li>
+        <li>Work with business analysts, data analysts and business users in understanding the business requirements;</li>
+        <li>Experience in QlikView Set Analysis, Section Access, Auto-reload tasks and triggers, Extensive knowledge of QlikView scripting and syntax function, QVD generator, ApplyMap function, preceding load, mapping load, incremental load and
+          etc.;</li>
+        <li>Strong knowledge of OLEDB and ODBC database connectivity, Understanding of QlikView Server/Publisher - Qlik Management Console (QMC);</li>
+        <li>Strong UI knowledge for creating complex Dashboard expressions and building backend architecture;</li>
+      </ul>
+      <p>
+        <span class="Txt-Italic">Environments:</span><br>
+        SQL Server 2012/2016, Qlik Sense, SAS, Windows Server 2012/2016, VDI, Citrix, VSS<br>
+      </p>
+      <br>
+      <br>
+      <!--************************MTCU****************************-->
+      <table>
+        <tr>
+          <td class="Txt-Bold">Qlik Sense QlikView Developer</td>
+        </tr>
+        <tr>
+          <td class="Txt-Italic">Ministry of Teaching, College & University (MTCU)</td>
+          <td class="Txt-Bold">Aug. 2015</td>
+          <td>to</td>
+          <td class="Txt-Bold">Oct. 2016</td>
+        </tr>
+      </table>
+      <p>
+        Projects:<br>
+        College Dashboard Reporting;<br>
+      </p>
+      <ul>
+        <li>Worked with business analysts and business users for requirement gathering, gap analysis, and data modeling;</li>
+        <li>Developed reports using QlikView, Qlik Sense and Excel Pivot tables and cross table;</li>
+        <li>Developed QlikView scripts for QVD file generation from database, and batch scripts for scheduled reload;</li>
+        <li>Designed data warehouse model and QlikView and Qlik Sense dashboards, analysis reports by using DAR approach and SCRUM methodology;</li>
+        <li>Tuned QlikView report performance by optimizing database queries and report design;</li>
+        <li>Worked with QA and business users during SIT and UAT SDLC cycles;</li>
+      </ul>
+      <p>
+        <span class="Txt-Italic">Environments:</span><br>
+        SQL Server 2012/2016, Qlik Sense, SAS, Windows Server 2012/2016, VDI, Citrix, VSS<br>
+      </p>
+      <br>
+      <br>
+      <!--************************TD BANK****************************-->
+      <table>
+        <tr>
+          <td class="Txt-Bold">BI Developer and Data Analyst</td>
+        </tr>
+        <tr>
+          <td class="Txt-Italic">TD Bank</td>
+          <td class="Txt-Bold">Sep. 2014</td>
+          <td>to</td>
+          <td class="Txt-Bold">Aug. 2015</td>
+        </tr>
+      </table>
+      <p>
+        Projects:<br>
+        M-cube trading reporting; <br>
+        (Collect trading and settlement data from 11 sources and provide daily reports to business)<br>
+      </p>
+      <ul>
+        <li>Worked with ETL team on data requirement for reports and BI data model design;</li>
+        <li>Developed SSRS reports for pre-defined reporting by business users;</li>
+        <li>Developed QlikView dashboards for KPI analysis on SQL server data warehouse;</li>
+        <li>Extracted data from SQL Server database tables into flat data files and Excel sheet;</li>
+      </ul>
+      <p>
+        <span class="Txt-Italic">Environments:</span><br>
+        SQL server 2012, SSRS, QlikView, Qlik Sense, Windows Server 2008, SQL, T-SQL<br>
+      </p>
+      <br>
+      <br>
+      <!--************************OBP CONSULTANTS****************************-->
+      <table>
+        <tr>
+          <td class="Txt-Bold">Data Analyst</td>
+        </tr>
+        <tr>
+          <td class="Txt-Italic">OBP Consultants Inc.</td>
+          <td class="Txt-Bold">Feb. 2012</td>
+          <td>to</td>
+          <td class="Txt-Bold">Sep. 2014</td>
+        </tr>
+      </table>
+      <p>
+        Projects:<br>
+        Common Corporate Data Integration; <br>
+      </p>
+      <ul>
+        <li>Setup and maintained SQL Server 2012/2014 databases for team projects;</li>
+        <li>Worked closed with business analysts on requirement gap analysis;</li>
+        <li>Designed database model in E-R model according to business requirements;</li>
+        <li>Developed operation reports with SSRS for data verification and auditing;</li>
+      </ul>
+      <p>
+        <span class="Txt-Italic">Environments:</span><br>
+        SQL Server 2012/2014, QlikView, Qlik Sense, Windows Server 2008, T-SQL, SSRS<br>
+      </p>
+      <br>
+      <br>
+      <!--************************LAO TU LLC****************************-->
+      <table>
+        <tr>
+          <td class="Txt-Bold">Remote Data Analyst</td>
+        </tr>
+        <tr>
+          <td class="Txt-Italic">LAO TU LLC.</td>
+          <td class="Txt-Bold">Mar. 2011</td>
+          <td>to</td>
+          <td class="Txt-Bold">Feb. 2012</td>
+        </tr>
+      </table>
+      <p>
+        Projects:<br>
+        Common Corporate Data Integration; <br>
+      </p>
+      <ul>
+        <li>Successfully retrieve and modify data using SQL Server from different database, and create new database, add/modify/drop tables and data;</li>
+        <li>Created Excel reports for business users by analyzing data from multiple data sources;</li>
+      </ul>
+      <p>
+        <span class="Txt-Italic">Environments:</span><br>
+        QlikView, Qlik Sense, Windows Server 2008, T-SQL, SSRS<br>
+      </p>
+    </div>
+  </section>
+
   <!--************************Education****************************-->
-  <h3 class="Segment">EDUCATION</h3>
-  <hr>
-  <div class="Exp-container">
+
+  <section id="Education">
+
+    <h3 class="Segment">EDUCATION</h3>
+    <hr>
     <ul>
       <li>HoHai University</li>
     </ul>
-    <em><a href="http://toqlik.com/blog/">Blog</a></em>
-  </div>
+
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer id="Footer">
+
+    <div class="social-icon">
+
+      <a href="https://www.linkedin.com/in/mikezhu4163037888/"><i class="icon fab fa-linkedin fa-2x"></i></a>
+      <a href="https://twitter.com/ToQlik"><i class="icon social-icon fab fa-twitter-square fa-2x"></i></a>
+      <a href="https://http://toqlik.com/blog/"><i class="icon fab fa-blogger fa-2x"></i></i></a>
+      <a href="mailto: zf328@hotmail.com"><i class="icon social-icon far fa-envelope fa-2x"></i></a>
+
+      <p>© Mike Zhu - Senior QlikView Qlik Sense Consultant and Developer</p>
+
+    </div>
+
+  </footer>
 
 </body>
 
