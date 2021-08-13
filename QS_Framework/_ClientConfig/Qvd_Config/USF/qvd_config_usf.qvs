@@ -1,0 +1,4 @@
+let vSourceTable_Calender_Location = 'lib://QVDRepository\';
+let vSourceTable_Calender_QVD = 'Lookup\calendar_dim_fiscal.qvd'; //changed to fiscal on Jan 2020
+let vYearWeekFieldName = 'yr_wk_num'; //Year Week Field name in the vSourceTable_Calendar
+let vTotoalNoOfWeeks = 108;
