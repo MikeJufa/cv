@@ -31,6 +31,12 @@ h3 {
   margin: 50px;
 }
 
+.Skill-container {
+  margin: 50px;
+  display: flex;
+  gap: 10px;
+}
+
 .Segment {
   color: #36622b;
 }
